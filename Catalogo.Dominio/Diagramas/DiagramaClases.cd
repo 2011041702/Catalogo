@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Catalogo.Dominio.Autor">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAABEAAAAAAAAAEAAAAAAAQAAAgAAA=</HashCode>
+      <FileName>Entidades\Autor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Catalogo.Dominio.Catalogo">
+    <Position X="5.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAABAAAAIAAiAAAAAACAAAAAAAIAAA=</HashCode>
+      <FileName>Entidades\Catalogo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NombreAutor" />
+      <Property Name="NombreProducto" />
+      <Property Name="NombreTipoProducto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Catalogo.Dominio.Producto">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAIAAAAAAAAAAQAAEAABACAAAAACAAAAA=</HashCode>
+      <FileName>Entidades\Producto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CodigoTipoProducto" />
+      <Property Name="CodigoAutor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Catalogo.Dominio.TipoProducto">
+    <Position X="7.75" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQiAAEAAAAAACAAAgAAAA=</HashCode>
+      <FileName>Entidades\TipoProducto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
